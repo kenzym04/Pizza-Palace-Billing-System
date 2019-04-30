@@ -1,0 +1,262 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	max-width: 812px;
+	padding: 5px;
+	font-size: 14px;
+	font-family: Helvetica, sans-serif;
+}
+
+.intro{
+	background-color: #EFEFEF;
+	width: 788px;
+}
+
+.instructions, .summary{
+	display: inline-block;
+	vertical-align: top;
+	height: 100px;
+}
+
+.instructions{
+	width: 390px;
+	background-color: white;
+	padding-left: 15px;
+}
+
+.instructions ol{
+	font-size: 12px;
+	margin-left: 15;
+}
+
+.summary{
+	padding-right: 10px;
+	float: right;
+	text-align: right;
+}
+
+.summary .total_purchase_order{
+	margin: 15px 0 5px 0;
+	font-weight: bold;
+	color: #415643;
+	font-size: 14px;
+}
+
+.summary .total{
+	font-family: "Arial Black", sans-serif;
+	font-size: 20px;
+	padding: 5px;
+	width: 300px;
+	background-color: white;
+}
+
+.summary .note{
+	margin-top: 5px;
+	font-size: 10px;
+}
+
+table#menu{
+	border-collapse: collapse;
+	border: thin solid black;
+}
+
+table#menu, input, button{
+	font-size: 12px;
+}
+
+table#menu tr td{
+	padding: 3px 5px;
+	border-bottom: thin solid black;
+}
+
+table#menu tr td:first-child{
+	padding-left: 15px;
+	color: #274C16;
+	max-width: 320px;
+}
+
+table#menu tr td:nth-child(2) input[type='radio']{
+	margin: 0 5px;
+}
+
+table#menu tr td:nth-child(3) input[type='number']{
+	width: 50px;
+}
+
+table#menu tr td:nth-child(4){
+	font-size: 14px;
+	font-weight: bold;
+	color: #0F2B6C;
+	text-align: right;
+}
+
+table#menu tr td:nth-child(5) button, table#menu tr td:nth-child(6) button{
+	width: 70px;
+	height: 20px;
+	background-color: #EEE9A9;
+	border: thin solid #284A18;
+}
+
+table#menu tr td:first-child p:first-child{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+table#menu tr.row_header{
+	background-color: #FFFFDD;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+table#menu tr.row_header td{
+	color: #863905;
+	text-align: center;
+	padding: 10px 0px;
+	border-bottom: thin solid black;
+	border-top: thin solid black;
+}
+
+table#menu tr.row_header td:first-child{
+	text-align: left;
+	padding-left: 15px;
+	width: 300px;
+}
+
+table#menu tr.row_header td:nth-child(2){
+	width: 100px;
+}
+
+table#menu tr.row_header td:nth-child(3){
+	width: 50px;
+}
+
+table#menu tr.row_header td:nth-child(4){
+	text-align: right;
+	width: 150px;
+}
+
+table#menu tr.row_header td:nth-child(5){
+	width: 70px;
+}
+
+table#menu tr.row_header td:nth-child(6){
+	width: 70px;
+}
+
+table#menu tr.row_header td p{
+	display: inline-block;
+}
+
+#place-order{
+	text-align: center;
+	float: right;
+	display: block;
+	padding: 10px 20px;
+	margin: 20px 0;
+	font-size: 18px;
+	text-decoration: none;
+	height: 20px;
+	background-color: #EEE9A9;
+	border: thin solid #284A18;
+	width: 150px;
+}
+
+.order-title{
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+table#order-summary{
+	border-collapse: collapse;
+	border: thin solid black;
+	margin: 20px 0;
+}
+
+#order-summary td{
+	border-bottom: thin solid black;
+	padding: 5px;
+	font-size: 14px;
+}
+
+#order-summary tr td:first-child{
+	width: 250px;
+	font-weight: bold;
+	color: #274C16;
+}
+
+#order-summary tr td.heading{
+	background-color: #FFFFDD;
+	padding-left: 20px;
+	font-weight: bold;
+	color: #863905;
+}
+
+#order-summary tr.column-title td{
+	font-size: 14px;
+	font-weight: normal;
+	color: black;
+}
+
+#order-summary tr td:nth-child(3){
+	text-align: center;
+}
+
+#order-summary tr td:nth-child(4){
+	width: 70px;
+	text-align: right;
+}
+
+#order-summary tr td:nth-child(5){
+	width: 70px;
+	text-align: right;
+}
+
+#gt-container{
+	text-align: right;
+}
+
+#gt-container #grand-total{
+	font-weight: bold;
+	font-size: 16px;
+	color: #0F2B6C;
+}
+
+#order input[type='text']{
+	width: 200px;
+	font-size: 16px;
+	padding: 3px;
+}
+
+#order input[type='submit']{
+	font-size: 16px;
+	padding: 4px 15px;
+	border: thin solid #284A18;
+	background-color: #EEE9A9;
+}
+
+.placed-order-title{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#placed-order{
+	border-collapse: collapse;
+	border: thin solid black;
+}
+
+#placed-order td{
+	border-bottom: thin solid black;
+}
+
+#placed-order td:not(.od){
+	padding: 10px;
+}
+
+.details td{
+	border: none !important;
+	padding: 0 !important;
+}
